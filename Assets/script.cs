@@ -17,6 +17,15 @@ public class script : MonoBehaviour
     void Update()
     {
         float zIndex = transform.position[2];
-        transform.Translate(0, 0, (flag * Time.deltaTime * speed), Space.World);
+        
+        if(zIndex <= 10){
+            flag = 1;
+            transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
+            if(scale == false){
+                transform.localScale += (new Vector3(5,5,5));
+                scale = true;
+            }
+        } 
+        transform.Translate(0, 0, (flag*Time.deltaTime*speed), Space.World);
     }
 }
