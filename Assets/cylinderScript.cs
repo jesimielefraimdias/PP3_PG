@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class cylinderScript : MonoBehaviour
 {
     private float speed = 2;
     private float flag = -1;
@@ -32,4 +32,3 @@ public class NewBehaviourScript : MonoBehaviour
         transform.Translate(0, 0, (flag*Time.deltaTime*speed), Space.World);
     }
 }
-
