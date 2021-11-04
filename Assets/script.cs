@@ -25,7 +25,10 @@ public class script : MonoBehaviour
                 transform.localScale += (new Vector3(5,5,5));
                 scale = true;
             }
-        } 
+        } else if (zIndex >= 40){
+            flag = -1;
+            transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
+        }
         transform.Translate(0, 0, (flag*Time.deltaTime*speed), Space.World);
     }
 }
