@@ -10,10 +10,13 @@ public class script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.Translate(0, 0, 40, Space.World);
     }
 
     // Update is called once per frame
     void Update()
     {
+        float zIndex = transform.position[2];
+        transform.Translate(0, 0, (flag * Time.deltaTime * speed), Space.World);
     }
 }
