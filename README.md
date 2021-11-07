@@ -2,11 +2,11 @@
 Prof. Dr. Mario Liziér & Prof. Dr. Siovani Felipussi
 
 ## Integrantes
-Jesimiel Efraim Dias
-Lucas Henrique de Araújo
-Rafael Toledo 
-Victor Mendes
-Victória Resende
+Jesimiel Efraim Dias,
+Lucas Henrique de Araújo,
+Rafael Pincinato Toledo,
+Victor Mendes,
+Victória Resende.
 
 ## Instruções de uso
 Utilizamos o Unity na versão 2020.3.21f1 (64-bit), uma plataforma de desenvolvimento 3D, bastante usada na criação de jogos.
