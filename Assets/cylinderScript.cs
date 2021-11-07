@@ -10,7 +10,6 @@ public class cylinderScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.Translate(0, 0, 40, Space.World);
     }
 
     // Update is called once per frame
@@ -18,14 +17,14 @@ public class cylinderScript : MonoBehaviour
     {
         float zIndex = transform.position[2];
         
-        if(zIndex <= 10){
+        if(zIndex <= 3){
             flag = 1;
             transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
             if(scale == false){
                 transform.localScale += (new Vector3(5,5,5));
                 scale = true;
             }
-        } else if (zIndex >= 40){
+        } else if (zIndex >= 25){
             flag = -1;
             transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
         }
