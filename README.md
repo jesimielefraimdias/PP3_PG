@@ -19,29 +19,47 @@ Foram adicionados um chão com textura de grama para se ter uma maior percepçã
 Os objetos adicionados foram um cilindro, uma composição de cubos, uma árvore, um relógio e uma engrenagem. Após isso, redimensionamos e posicionamos individualmente cada um dos objetos na cena em frente à câmera com um espaçamento entre eles.
 **Conceitos mapeados por objeto:**
 Para não ficar muito grande será omitido as escalas que tiverem os valores padrões que para a escala é X: 1, Y: 1 e Z: 1, para a rotação é X: 0, Y: 0 e Z: 0.
+
 *Cilindro:*
+
 Posição
+
 X:-15, Y:5, Z:3
 
+
 *Cubos:*
+
 Posição
+
 X:-5, Y:5, Z:3
 
+
 *Árvore:*
+
 Posição
+
 X:15, Y:0, Z:3
 
+
 *Relógio:*
+
 Posição
+
 X:25, Y:5, Z:3
+
 Rotação
+
 X:0, Y:270, Z:0
+
 Escala
+
 X:3, Y:3, Z:3
+
 
 *Engrenagem:*
 Posição
 X:5, Y:5, Z:3
+
 Rotação
 X:270, Y:0, Z:0
 
