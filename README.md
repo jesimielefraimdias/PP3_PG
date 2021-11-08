@@ -23,40 +23,34 @@ Para não ficar muito grande será omitido as escalas que tiverem os valores pad
 *Cilindro:*
 
 Posição
-
 X:-15, Y:5, Z:3
 
 
 *Cubos:*
 
 Posição
-
 X:-5, Y:5, Z:3
-
 
 *Árvore:*
 
 Posição
-
 X:15, Y:0, Z:3
 
 
 *Relógio:*
 
 Posição
-
 X:25, Y:5, Z:3
 
 Rotação
-
 X:0, Y:270, Z:0
 
 Escala
-
 X:3, Y:3, Z:3
 
 
 *Engrenagem:*
+
 Posição
 X:5, Y:5, Z:3
 
