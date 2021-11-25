@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a516061acda79249b6ebc8556df3ab9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cameraPrincipal: {instanceID: 0}
+  - cameraRelogio: {instanceID: 0}
+  - cameraObjetos: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
