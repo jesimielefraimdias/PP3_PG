@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class cylinderScript : MonoBehaviour
 {
-    private float speed = 2;
-    private float flag = -1;
-    private bool scale = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,19 +12,30 @@ public class cylinderScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float zIndex = transform.position[2];
         
-        if(zIndex <= 3){
-            flag = 1;
-            transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
-            if(scale == false){
-                transform.localScale += (new Vector3(5,5,5));
-                scale = true;
+        if(Input.GetKeyDown("8"))
+        {
+            if(transform.position[2] <= 25){
+                transform.Translate(0, 0, 1, Space.World);
             }
-        } else if (zIndex >= 25){
-            flag = -1;
-            transform.Rotate(90.0f, 0.0f, 0.0f, Space.World);
         }
-        transform.Translate(0, 0, (flag*Time.deltaTime*speed), Space.World);
+        else if(Input.GetKeyDown("5"))
+        {
+            if(transform.position[2] > 12){
+                transform.Translate(0, 0, -1, Space.World);
+            }
+        } 
+        else if(Input.GetKeyDown("4")){
+            if(transform.position[0] != -15){   
+                transform.Translate(-10, 0, 0, Space.World);
+            }
+        }
+        else if(Input.GetKeyDown("6")){
+            if(transform.position[0] != -5){   
+                transform.Translate(10, 0, 0, Space.World);
+            }
+        }
     }
 }
