@@ -17,7 +17,9 @@ Foram adicionados um chão com textura de grama para se ter uma maior percepçã
 
 ##  Objetos 3D
 Os objetos adicionados foram um cilindro, uma composição de cubos, uma árvore, um relógio e uma engrenagem. Após isso, redimensionamos e posicionamos individualmente cada um dos objetos na cena em frente à câmera com um espaçamento entre eles.
+
 **Conceitos mapeados por objeto:**
+Para não ficar muito grande será omitido as escalas que tiverem os valores padrões que para a escala é X: 1, Y: 1 e Z: 1, para a rotação é X: 0, Y: 0 e Z: 0.
 
 *Cilindro:*
 
@@ -54,7 +56,9 @@ X:5, Y:5, Z:3
 
 ## Scripts
 No script do cilindro, temos a opção de movimentar essa forma geométrica pelo eixo Z uma unidade por vez, usando as teclas 5 e 8.
-Além disso, é possível trocarmos a posição do cilindro com o cubo que estão a uma distância de 10 unidades entre si, no eixo X.
+Além disso, é possível trocarmos a posição do cilindro com o cubo que estão a uma distância de 10 unidades entre si, no eixo X, usando as teclas 4 e 6.
+As câmeras possuem script para alterar entre elas ao apertar A e D. Também é possível mudar a projeção ao apertar W e S, durante a projeção oprtográfica ao apertar seta pra cima e seta pra baixo é possível mudar o tamanho da área projetada pela câmera.
 O script do cubo acompanha os movimentos realizados pelo cilindro. Seus movimentos são completamente dependentes da posição em que se encontra o cilindro.
 O script do relógio faz com que o relógio gire no sentido anti-horário.
-O script do ponteiro faz com que o ponteiro rode loucamente.
+O script do ponteiro faz com que o ponteiro rode.
+O HUD tem uma interface para se esconder caso o usuário aperte H.
